@@ -1,0 +1,22 @@
+{
+    "name": "abdulhafidzanshari/grpc",
+    "description": "Test gRPC",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdul hafidz a",
+            "email": "aditans88@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3",
+        "google/protobuf": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "service/",
+            "App\\": "src/"
+        }
+    }
+}
